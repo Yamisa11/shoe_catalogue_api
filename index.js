@@ -31,7 +31,7 @@ app.use(
   })
 );
 app.use(flash());
-
+//routes
 app.get('/api/shoes', shoeRoute.show)
 app.get('/api/shoes/brand/:brandname', shoeRoute.brand_name)
 app.get('/api/shoes/size/:size', shoeRoute.allSize)
